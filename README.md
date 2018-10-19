@@ -65,7 +65,7 @@ In most of the test images the netwrok was able to detect road properly. But, th
 <img src="./runs/1539901473.1455405/uu_000088.png" alt="Image6"/>
 
 ### Video
-The network is applied in Udacity test video from lane detection project. The output video can be found [here](./project_video_out.mp4). The network was able to reasonably detect road in the video but it requires lot of improvement. Need to train the network on bigger database and then try again.
+The network is applied in Udacity test video from lane detection project. The output video can be found [here](./video/project_video_out.mp4). The network was able to reasonably detect road in the video but it requires lot of improvement. Need to train the network on bigger database and then try again.
 
 
 
