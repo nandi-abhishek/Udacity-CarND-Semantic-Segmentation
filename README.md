@@ -28,7 +28,7 @@ The data set used to train the model is [Kitti Road dataset](http://www.cvlibs.n
 ## How to run
 
 ### Prerequisites
-Make sure to have the following is installed:
+Make sure to have the following installed:
  - [Python 3](https://www.python.org/)
  - [TensorFlow](https://www.tensorflow.org/)
  - [NumPy](http://www.numpy.org/)
