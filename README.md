@@ -15,7 +15,7 @@ First we have added 1x1 convolutions to layer 7 to reduce the number of classes 
 
 <img src="./FCN.png" alt="Tensorflow Graph"/>
 
-Every created convolutional and transpose convolutional layer uses a random-normal kernel initializer with standard deviation 0.01 and a L2 kernel regularizer with L2 0.001.
+Every created convolutional and transpose convolutional layer uses a random-normal kernel initializer with standard deviation 0.01 and a L2 kernel regularizer with value 0.001.
 
 Once the network structure is defined, the optimizer and the cross-entropy lost is defined in the procedure [optimize](./main.py#L116) using Adam optimizer. As suggested in Udacity tips for the project the l2 regularization loss is added to cross entropy loss.
 
