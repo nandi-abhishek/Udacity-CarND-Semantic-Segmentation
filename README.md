@@ -41,7 +41,7 @@ The file `main.py` will check to make sure you are using GPU - if you don't have
 ### Running the model
 Run the following command to execute the project:
 ```
-python main.py -model [0|1|2]
+python main.py -mode [0|1|2]
 
 mode 0 - train the model and then save it
 mode 1 - load the saved model and run on test images
